@@ -55,9 +55,9 @@ const MovieListItem = ({ movies, path, onRemove }: Props) => {
     };
 
     return (
-        <Card className="mx-5 my-5 zoom" style={{ width: '18rem' }}>
+        <Card className="mx-1 my-2 zoom" style={{ width: '15rem' }}>
             <a href={toPath}>
-                <Card.Img style={{ height: '25rem' }} variant="top" src={`${process.env.REACT_APP_API_BASE_URL}/img/${poster}`} />
+                <Card.Img style={{ height: '15rem' }} variant="top" src={`${process.env.REACT_APP_API_BASE_URL}/img/${poster}`} />
             </a>
             <Card.Body>
                 <Card.Title>
